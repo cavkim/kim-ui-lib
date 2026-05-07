@@ -1,5 +1,5 @@
 {
-  "name": "@kim-ui-lib/ui",
+  "name": "@cavkim/ui",
   "version": "0.1.0",
   "description": "Reusable UI component library",
   "keywords": [
@@ -44,6 +44,7 @@
     "typescript": "^5.4.0"
   },
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "restricted"
   }
 }
