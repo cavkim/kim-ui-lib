@@ -1,0 +1,5 @@
+# Copy this file to .npmrc and fill in your token
+# Get a token at: GitHub → Settings → Developer settings → Personal access tokens
+
+@YOUR_GITHUB_USERNAME:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN_HERE
