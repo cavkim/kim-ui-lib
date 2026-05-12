@@ -1,6 +1,6 @@
 {
   "name": "@cavkim/ui",
-  "version": "0.1.0",
+  "version": "0.1.8",
   "description": "Reusable UI component library",
   "keywords": [
     "react",
@@ -17,6 +17,12 @@
       "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
+    },
+    "./styles": {
+      "types": "./dist/styles.d.ts",
+      "import": "./dist/styles/globals.css",
+      "require": "./dist/styles/globals.css",
+      "style": "./dist/styles/globals.css"
     }
   },
   "files": [

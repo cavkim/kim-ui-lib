@@ -12,6 +12,7 @@ export default function Home() {
           { label: "About", href: "/about" },
           { label: "Contact", href: "/contact" },
         ]}
+        cta={{ label: "Sign Up", href: "/signup" }}
       />
 
       <HeaderMarketing
